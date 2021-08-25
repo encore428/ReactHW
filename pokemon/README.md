@@ -4,6 +4,7 @@ Three assignments are incorporated into one project.
 -	Market place, take home homework from Day 2.
  
 On opening the app, Pokemons page is loaded.  On the top right corner is a navigation menu where you can switch between the three homework.
+
 ![navigation menu](./navbar.png)
  
 Career page uses array in program storage to keep postings.  The same 10 postings are loaded every time the program runs.  Updates persist only during that session.
