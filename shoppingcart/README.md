@@ -1,12 +1,3 @@
-Three assignments are incorporated into one project.
--	Pokemon list, first take home homework from Day 1.
--	Career page: second take home homework from Day 1.
--	Market place, take home homework from Day 2.
- 
-On opening the app, Pokemons page is loaded.  On the top right corner is a navigation menu where you can switch between the three homework.
-
-![navigation menu](./navmenu.png)
- 
 
  
 

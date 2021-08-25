@@ -7,3 +7,4 @@
     * Pokemon list, first take home homework from Day 1.
     * Career page: second take home homework from Day 1.
     * Market place, take home homework from Day 2.
+2. [**shoppingcart**](shoppingcart/README.md) : Homework from Day 3:
