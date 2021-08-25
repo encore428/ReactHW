@@ -1,9 +1,4 @@
-## This is the repository for course work submission:
-**Course**: Fundamentals in Front End Development.
-<br>**Student**: Lee Sik On.
-<br>**Organizaton**: PowerX, SG Innovate.
-
-All three assignments are incorporated into one project.
+Three assignments are incorporated into one project.
 -	Pokemon list, first take home homework from Day 1.
 -	Career page: second take home homework from Day 1.
 -	Market place, take home homework from Day 2.
