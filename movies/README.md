@@ -10,9 +10,9 @@ Create a new application using Create React App with the following pages:
 
 1. Movie details page at path `/movie/<movieId>`:
 
-1.1. Show the details and comments for the movie.</li>
+. Show the details and comments for the movie.
 
-1.1. Users that are logged in are allowed to add comment for the movie.</li>
+. Users that are logged in are allowed to add comment for the movie.
 
 1. Movie comment can be deleted by the user that created it.
 
