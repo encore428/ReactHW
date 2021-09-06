@@ -9,7 +9,7 @@ Create a new application using Create React App with the following pages:
 13. Home page: shows list of movies.
 
 4. Movie details page at path `/movie/<movieId>`:
-5. 
+
 - Show the details and comments for the movie.</li>
 - 
 - Users that are logged in are allowed to add comment for the movie.</li>
