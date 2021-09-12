@@ -2,19 +2,19 @@
 
 Create a new application using Create React App with the following pages:
 
-1. Login page at path `/login`.
+1. Login page at path `/login`.  (See test No 33.)
 
-2. Register page at path `/register`.
+2. Register page at path `/register`.  (See test No 16.)
 
-3. Home page: shows list of movies.
+3. Home page: shows list of movies.  (See test No 26.)
 
-4. Movie details page at path `/movie/<movieId>`:
+4. Movie details page at path `/movie/<movieId>`:  (See test No 31.)
 
-- Show the details and comments for the movie.
+- Show the details and comments for the movie.  (See test No 22.)
 
-- Users that are logged in are allowed to add comment for the movie.
+- Users that are logged in are allowed to add comment for the movie.  (See test No 33)
 
-5. Movie comment can be deleted by the user that created it.
+5. Movie comment can be deleted by the user that created it.  (See test No 31, 32.)
 
 # Notes:
 
@@ -30,11 +30,11 @@ comment and the userId of the user, which can be retrieved from
 `https://<your-service>.herokuapp.com/docs/#/auth/getProfile`
 
 # Other requirements:
-1. You should have at least 3 tests.
+1. You should have at least 3 tests.  (src/companents/button.test.jsx, src/companents/label.test.jsx, src/domains/movie/components/movie-item.test.jsx.)
 
-1. The comment form should be validated.
+1. The comment form should be validated.  (see src/domains/movie/components/movie-details.jsx.)
 
-1. The movie listing should have Next and Prev button to show more movies.
+1. The movie listing should have Next and Prev button to show more movies.  (See test No 28, 29, 30.)
 
 1. You should deploy your application to Netlify and submit the URL together with your code.
 
@@ -129,7 +129,7 @@ or get inspiration from Dribble: `https://dribbble.com/tags/tmdb`
        <td>The same movie details are shown, with the review posted by encore8 appearing with delete button.</td></tr>
    <tr><td>32.</td><td>Click Logout button.</td>
        <td>On the same movie page, review input form disappears, reviews by encore8 stays but without delete button.</td></tr>
-   <tr><td>33.</td><td>Click Login button (any one of the two).</td>
+   <tr><td>33.</td><td>Change URL to http://localhost:3000/login.</td>
        <td>URL changes to http://localhost:3000/login, at login screen.</td></tr>
    <tr><td>34.</td><td>Enter email encore8@gmail.com, password 12345678, click Login.</td>
        <td>URL changes to http://localhost:3000/movie/{movieId} where movie is the one on screen before clicking Login.
