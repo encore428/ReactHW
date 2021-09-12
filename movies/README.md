@@ -47,8 +47,9 @@ or get inspiration from Dribble: `https://dribbble.com/tags/tmdb`
 
 # Testing
 
-1. Open the URL: http://localhost:3000/
-   See home page, and 5 movies, with title, release date, backdrop picture
+<table>
+   <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
+   <tr><td>1.</td><td>Open the URL: http://localhost:3000/</td><td>See home page, and 5 movies, with title, release date, backdrop picture.</td></tr>
 2. Click on any one movie 
    URL chjanges to http://localhost:3000/movie/{movieId}
    move old title, title, release date. poster, overview
@@ -80,6 +81,7 @@ or get inspiration from Dribble: `https://dribbble.com/tags/tmdb`
    movieId correspond to the one before clicking Login.
 15 Create a 4 star review.
    Revnew appears below movie details, submitted by encore7.
+</table>
 
 1. Open another browser, enter URL http://localhost:3000/register
    On register screen
