@@ -49,6 +49,9 @@ or get inspiration from Dribble: `https://dribbble.com/tags/tmdb`
 
 <table>
    <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
+   
+   <tr><td colspan="3"> Begin the test for user name encore7</td></tr>
+   
    <tr><td>1.</td><td>Open the URL: http://localhost:3000/</td>
        <td>See home page, and 5 movies, with title, release date, backdrop picture.</td></tr>
    <tr><td>2.</td><td>Click on any one movie</td>
@@ -80,63 +83,69 @@ or get inspiration from Dribble: `https://dribbble.com/tags/tmdb`
    movieId correspond to the one before clicking Login.</td></tr>
    <tr><td>15.</td><td>Create a 4 star review.</td>
        <td>Review appears below movie details, submitted by encore7, delete button is visible.</td></tr>
-</table>
-
-<table>
+   
+   <tr><td colspan="3"> Open another session for user name encore8</td></tr>
+   
    <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
-   <tr><td>1.</td><td>Open another browser, enter URL http://localhost:3000/register</td>
+   <tr><td>16.</td><td>Open another browser, enter URL http://localhost:3000/register</td>
        <td>On register screen.</td></tr>
-   <tr><td>2.</td><td>Enter encore7, encore7@gmail.com, abcdefgh, abcdefgh, click Register.</td>
+   <tr><td>17.</td><td>Enter encore7, encore7@gmail.com, abcdefgh, abcdefgh, click Register.</td>
        <td>Error message appears on top "Email encore7@gmail.com already registered"</td></tr>
-   <tr><td>3.</td><td>Enter encore8, encore8@gmail.com, 12345678, 12345678, click Register.</td>
+   <tr><td>18.</td><td>Enter encore8, encore8@gmail.com, 12345678, 12345678, click Register.</td>
        <td>Registration successful, URL changes to http://localhost:3000/login, at login screen.</td></tr>
-   <tr><td>4.</td><td>Enter email encore8@gmail.com, password 12345678, click Login.</td>
+   <tr><td>19.</td><td>Enter email encore8@gmail.com, password 12345678, click Login.</td>
        <td>URL changes to http://localhost:3000/movie, a list of 5 movies are displayed.</td></tr>
-   <tr><td>5.</td><td>Change URL to http://localhost:3000/movie/{movieId} where movieId is from the encore7 test.</td>
-       <td>The same move details are shown, with the comment posted by encore7.</td></tr>
-   <tr><td>6.</td><td>Post a 2 star review.</td>
+   <tr><td>20.</td><td>Change URL to http://localhost:3000/movie/{movieId} where movieId is from the encore7 test.</td>
+       <td>The same movie details are shown, with the review posted by encore7.</td></tr>
+   <tr><td>21.</td><td>Post a 2 star review.</td>
        <td>Review added.  Only review by encore8 has the delete button.</td></tr>
    
    <tr><td colspan="3"> switch to browser of encore7</td></tr>
    
-   <tr><td>7.</td><td>Go to browser of encore7, refresh page.</td>
+   <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
+   <tr><td>22.</td><td>Go to browser of encore7, refresh page.</td>
        <td>Stay on the same movie page, two reviews are visible, only review by encore7 has delete button.</td></tr>
-   <tr><td>8.</td><td>encore7 delete own review.</td>
+   <tr><td>23.</td><td>encore7 delete own review.</td>
        <td>Stay on the same movie page, review by encore7 disappears.</td></tr>
    
    <tr><td colspan="3"> switch to browser of encore8</td></tr>
    
-   <tr><td>9.</td><td>Go to browser of encore8.</td>
+   <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
+   <tr><td>24.</td><td>Go to browser of encore8.</td>
        <td>On the same movie page, both reviews are still visible, only review by encore8 has delete button.</td></tr>
-   <tr><td>10.</td><td>Refresh page.</td>
+   <tr><td>25.</td><td>Refresh page.</td>
        <td>On the same movie page, reviews by encore7 disappears, review by encore8 re still visible and with delete button.</td></tr>
-   <tr><td>11.</td><td>Click "React Homework - day 4"</td>
+   <tr><td>26.</td><td>Click "React Homework - day 4"</td>
        <td>URL changes to http://localhost:3000/, 5 movies visible on screen.</td></tr>
-   <tr><td>12.</td><td>click "Movies"</td>
+   <tr><td>27.</td><td>click "Movies"</td>
        <td>URL changes to http://localhost:3000/movie, another 5 movies visible on screen.</td></tr>
-   <tr><td>13.</td><td>click "Prev" button</td>
+   <tr><td>28.</td><td>click "Prev" button</td>
        <td>Nothing happens.</td></tr>
-   <tr><td>14.</td><td>Click "Next" button</td>
+   <tr><td>29.</td><td>Click "Next" button</td>
        <td>Another 5 movies visible on screen.</td></tr>
-   <tr><td>15.</td><td>Click "Prev" button.</td>
+   <tr><td>30.</td><td>Click "Prev" button.</td>
        <td>Another 5 movies visible on screen.</td></tr>
-   <tr><td>16.</td><td>Change URL to http://localhost:3000/movie/{movieId} where movieId is from the encore7.</td>
-       <td>The same move details are shown, with the comment posted by encore8 appearing with delete button.</td></tr>
-   <tr><td>17.</td><td>Click Logout button.</td>
+   <tr><td>31.</td><td>Change URL to http://localhost:3000/movie/{movieId} where movieId is from the encore7.</td>
+       <td>The same movie details are shown, with the review posted by encore8 appearing with delete button.</td></tr>
+   <tr><td>32.</td><td>Click Logout button.</td>
        <td>On the same movie page, review input form disappears, reviews by encore8 stays but without delete button.</td></tr>
-   <tr><td>18.</td><td>Click Login button (any one of the two).</td>
+   <tr><td>33.</td><td>Click Login button (any one of the two).</td>
        <td>URL changes to http://localhost:3000/login, at login screen.</td></tr>
-   <tr><td>19.</td><td>Enter email encore8@gmail.com, password 12345678, click Login.</td>
+   <tr><td>34.</td><td>Enter email encore8@gmail.com, password 12345678, click Login.</td>
        <td>URL changes to http://localhost:3000/movie/{movieId} where movie is the one on screen before clicking Login.
-   The same move details are shown, review input form reapperas, comment posted by encore8 appears with delete button.</td></tr>
-   <tr><td>20</td><td>Delete the review.</td>
+   The same movie details are shown, review input form reapperas, review posted by encore8 appears with delete button.</td></tr>
+   <tr><td>35.</td><td>Delete the review.</td>
        <td>Review disappears.</td></tr>
 
-   <tr><td>21.</td><td>Go to browser of encore7.</td>
+   
+   <tr><td colspan="3"> switch to browser of encore7</td></tr>
+   
+   <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
+   <tr><td>36.</td><td>Go to browser of encore7.</td>
        <td>The same movie shown on the screen, with review by encore8 still visible.</td></tr>
-   <tr><td>22.</td><td>Click Logout.</td>
+   <tr><td>37.</td><td>Click Logout.</td>
        <td>The same movie shown on the screen, review input form disappears, review by encore8 still visible.</td></tr>
-   <tr><td>23.</td><td>Refresh page</td>
+   <tr><td>38.</td><td>Refresh page</td>
        <td>The same movie shown on the screen, review by encore8 disappears.</td></tr>
    </table>
 
