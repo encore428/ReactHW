@@ -49,38 +49,37 @@ or get inspiration from Dribble: `https://dribbble.com/tags/tmdb`
 
 <table>
    <tr><th>No</th><th>Action</th><th>Expected results</th></tr>
-   <tr><td>1.</td><td>Open the URL: http://localhost:3000/</td><td>See home page, and 5 movies, with title, release date, backdrop picture.</td></tr>
-2. Click on any one movie 
-   URL chjanges to http://localhost:3000/movie/{movieId}
-   move old title, title, release date. poster, overview
-   Reviews (no review is found).
-3. Click Login
-   URL change to http://localhost:3000/login
-4. Click Register new user button
-   URL change to http://localhost:3000/register
-5. Enter invalid Email, click Register
-   Name is mandatory.
-6. Enter name as encore7, click Register
-   Email is invalid
-7. Enter email encore7@gmail.com, click Register
-   Password is required
-8  Enter 1234 as password, click Register
-   Password2 is required
-9  Enter 1234 as password2, click Register
-   Error message appears on top "Minimum password length is 8 characters, try again."
-10 Enter 12345678 as password, click Register
-   Error message appears on top "Password do not match, try again."
-11 Enter 12345678 as password2, click Register
-   Registration successful, URL changes to http://localhost:3000/login, at login screen
-12 Enter email encore7@gmail.com, click Login
-   Password is required
-13 Enter 1234 as password, click Login.
-   Error message appears on top "Fail to login."
-14 Enter 12345678 as password, click Login.
-   URL changes to http://localhost:3000/movie/{movieId} where
-   movieId correspond to the one before clicking Login.
-15 Create a 4 star review.
-   Revnew appears below movie details, submitted by encore7.
+   <tr><td>1.</td><td>Open the URL: http://localhost:3000/</td>
+       <td>See home page, and 5 movies, with title, release date, backdrop picture.</td></tr>
+   <tr><td>2.</td><td>Click on any one movie</td>
+       <td>URL changes to http://localhost:3000/movie/{movieId}, movie old title, title, release date. poster, overview, and reviews (no review at the moment) are shown.</td></tr>
+   <tr><td>3.</td><td>Click Login</td>
+       <td>URL change to http://localhost:3000/login, Login page appears.</td></tr>
+   <tr><td>4.</td><td>Click Register new user button</td>
+       <td>URL change to http://localhost:3000/register, Register page appears.</td></tr>
+   <tr><td>5.</td><td>Enter invalid Email, click Register</td>
+       <td>Name is mandatory.</td></tr>
+   <tr><td>6.</td><td>Enter name as encore7, click Register.</td>
+       <td>Email is invalid.</td></tr>
+   <tr><td>7.</td><td>Enter email encore7@gmail.com, click Register.</td>
+       <td>Password is required.</td></tr>
+   <tr><td>8.</td><td>Enter 1234 as password, click Register.</td>
+       <td>Password2 is required.</td></tr>
+   <tr><td>9.</td><td>Enter 1234 as password2, click Register.</td>
+       <td>Error message appears on top "Minimum password length is 8 characters, try again."</td></tr>
+   <tr><td>10.</td><td>Enter 12345678 as password, click Register.</td>
+       <td>Error message appears on top "Password do not match, try again."</td></tr>
+   <tr><td>11.</td><td>Enter 12345678 as password2, click Register.</td>
+       <td>Registration successful, URL changes to http://localhost:3000/login, at login screen.</td></tr>
+   <tr><td>12.</td><td>Enter email encore7@gmail.com, click Login.</td>
+       <td>Password is required.</td></tr>
+   <tr><td>13.</td><td>Enter 1234 as password, click Login.</td>
+       <td>Error message appears on top "Fail to login."</td></tr>
+   <tr><td>14.</td><td>Enter 12345678 as password, click Login.</td>
+       <td>URL changes to http://localhost:3000/movie/{movieId} where
+   movieId correspond to the one before clicking Login.</td></tr>
+   <tr><td>15.</td><td>Create a 4 star review.</td>
+       <td>Review appears below movie details, submitted by encore7.</td></tr>
 </table>
 
 1. Open another browser, enter URL http://localhost:3000/register
