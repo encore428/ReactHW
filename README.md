@@ -3,7 +3,7 @@
 <br>**Student**: Lee Sik On.
 <br>**Organizaton**: PowerX, SG Innovate.
 
-1. [**pokemon**](pokemon/README.md) : Homework from Day 1 and Day 2 (completed):
+1. [**pokemon**](pokemon/) : Homework from Day 1 and Day 2 (completed):
     * Pokemon list, first take home homework from Day 1.
     * Career page: second take home homework from Day 1.
     * Market place, take home homework from Day 2.
