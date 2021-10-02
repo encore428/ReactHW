@@ -8,7 +8,7 @@
     * Career page: second take home homework from Day 1.
     * Market place, take home homework from Day 2.
 
-2. [**shoppingcart**](https://github.com/encore428/shoppingcart) : Homework from Day 3 (completed):
+2. [**shoppingcart**](https://github.com/encore428/shoppingcart) : Homework from Day 3 (completed):  
    This app was built on [**pokemon**](pokemon/), and therefore incorporates all the homework from day 1 to day 3. 
    While Shopping Cart is new feature, it includes some minor changes to the other three homework.
    
