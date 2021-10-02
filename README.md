@@ -9,8 +9,9 @@
     * Market place, take home homework from Day 2.
 
 2. [**shoppingcart**](https://github.com/encore428/shoppingcart) : Homework from Day 3 (completed):
-   This app was built on [**pokemon**](pokemon/), and therefore incorporates all the homework from day 1 to day 3.  
+   This app was built on [**pokemon**](pokemon/), and therefore incorporates all the homework from day 1 to day 3. 
    While Shopping Cart is new feature, it includes some minor changes to the other three homework.
+   
     * Pokemon list, first take home homework from Day 1.  Included `src\components\PokemonItem.jsx` to Styleguide.
     * Career page: second take home homework from Day 1.  Changed the name of a Trash button.
     * Market place, take home homework from Day 2.  Make the form read to render products when the form is initial loaded.
